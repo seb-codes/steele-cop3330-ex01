@@ -2,7 +2,6 @@
  *  UCF COP3330 Summer 2021 Assignment 1 Solution
  *  Copyright 2021 Sebastian Steele
  */
-
 package org.practice;
 import java.util.Scanner;
 
@@ -12,7 +11,7 @@ public class Saying_Hello {
         Scanner getName = new Scanner(System.in);
         System.out.println("What is your name? ");
         String Name = getName.nextLine();
-
+        
         // putting the output string together
         String conCat = "Hello, "+ Name+", nice to meet you!";
 
